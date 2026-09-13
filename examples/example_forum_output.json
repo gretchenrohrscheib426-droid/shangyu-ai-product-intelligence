@@ -1,0 +1,13 @@
+{
+  "data_label": "Example data",
+  "provenance": "Minimized paraphrase of reviewed case themes; not verbatim user text, not the raw dataset, not a new live run.",
+  "consensus": [],
+  "conflicts": [],
+  "questions": [
+    "Which specific coding tasks explain opposite user impressions?"
+  ],
+  "limitations": [
+    "Opinion differences alone are not factual contradictions."
+  ],
+  "example_type": "synthetic / anonymized example"
+}

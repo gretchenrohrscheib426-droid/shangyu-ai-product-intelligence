@@ -1,0 +1,15 @@
+{
+  "data_label": "Example data",
+  "provenance": "Minimized paraphrase of reviewed case themes; not verbatim user text, not the raw dataset, not a new live run.",
+  "sources": [
+    {
+      "id": "example-official-01",
+      "title": "Doubao user agreement",
+      "url": "https://www.doubao.com/legal/terms",
+      "source_grade": "S",
+      "published_at": null
+    }
+  ],
+  "finding": "Official terms describe AI cloud storage; this does not establish a recent launch date.",
+  "example_type": "synthetic / anonymized example"
+}

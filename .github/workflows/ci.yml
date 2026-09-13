@@ -1,0 +1,39 @@
+name: Offline portfolio checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Import runnable pure extracts
+        run: python -c "import portfolio_code.evidence_contract, portfolio_code.source_quality"
+      - name: Fixture unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Documentation script syntax
+        run: npm run typecheck
+      - name: Documentation build
+        run: npm run build
+      - name: Offline preview security regression
+        run: node --test tests/preview-security.test.mjs
+      - name: Secret, link, syntax and package checks
+        run: python scripts/check_release.py
+      - name: Supplemental privacy and secret scan
+        run: python scripts/security_scan.py
+      - name: Explain excluded frontend
+        run: echo 'Original Vue application excluded for licensing; its build is validated locally, not in this portfolio job.'

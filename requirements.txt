@@ -1,0 +1,1 @@
+# Offline portfolio checks use Python standard library only. Full-platform requirements are intentionally excluded.

@@ -1,0 +1,11 @@
+{
+  "data_label": "Example data",
+  "provenance": "Minimized paraphrase of reviewed case themes; not verbatim user text, not the raw dataset, not a new live run.",
+  "opportunity": "Test clearer task and output-revision guidance.",
+  "statement_type": "Inference",
+  "evidence_ids": [
+    "example-comment-01"
+  ],
+  "validation_needed": "Interview users and run task-based usability checks before changing the product.",
+  "example_type": "synthetic / anonymized example"
+}

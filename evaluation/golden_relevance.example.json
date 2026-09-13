@@ -1,0 +1,16 @@
+{
+  "data_label": "Example data",
+  "not_real_golden_set": true,
+  "items": [
+    {
+      "id": "example-relevant",
+      "text": "An AI assistant helps organize spreadsheet work",
+      "label": "relevant"
+    },
+    {
+      "id": "example-noise",
+      "text": "A food preparation tip sharing the same ambiguous product word",
+      "label": "irrelevant"
+    }
+  ]
+}

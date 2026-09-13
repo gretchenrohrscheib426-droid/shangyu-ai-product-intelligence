@@ -1,0 +1,56 @@
+{
+  "audit_date": "2026-09-13",
+  "raw_posts": 24,
+  "raw_comments": 83,
+  "topic_related_posts": 17,
+  "primary_posts": 12,
+  "context_only_posts": 5,
+  "noise_posts": 7,
+  "input_comments": 15,
+  "insight_cited_comments": 9,
+  "report_cited_comments": 8,
+  "themes": 3,
+  "pain_points": 4,
+  "explicit_needs": 3,
+  "media_sources": 10,
+  "media_source_grades": {
+    "D": 9,
+    "S": 1
+  },
+  "query_source_grades": {
+    "S": 2,
+    "D": 2
+  },
+  "verified": 1,
+  "partially_verified": 3,
+  "consensus": 0,
+  "conflicts": 0,
+  "unsupported_items": 3,
+  "core_cited": 5,
+  "core_n": 5,
+  "fact_sample_n": 20,
+  "fact_sample_results": {
+    "Supported": 17,
+    "Partially supported": 3
+  },
+  "unsupported_core": 0,
+  "relevance_tp": 17,
+  "relevance_fp": 0,
+  "relevance_predicted_positive_n": 17,
+  "relevance_development_n": 24,
+  "product_hypotheses": 1,
+  "operations_hypotheses": 2,
+  "pdf_pages": 15,
+  "private_offline_tests": 23,
+  "measurement_limit": "Private single-platform convenience sample; assistant-assisted in-sample review, not blind validation.",
+  "comment_filter_counts": {
+    "promotion_or_unrelated": 2,
+    "experience_signal_in_relevant_parent_context": 15,
+    "duplicate_text": 3,
+    "per_post_limit": 2,
+    "parent_not_in_primary_sample": 40,
+    "no_experience_signal": 7,
+    "off_scope_chat_or_bot_command": 5,
+    "low_information": 9
+  }
+}

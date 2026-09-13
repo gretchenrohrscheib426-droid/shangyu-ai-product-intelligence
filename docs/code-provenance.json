@@ -1,0 +1,108 @@
+{
+  "review": "Original local additions compared to frozen upstream; publication security patches separately recorded; no upstream blanket relicensing.",
+  "copies": [
+    {
+      "public_path": "integration/engines/common/source_quality.py",
+      "private_source_path": "engines/common/source_quality.py",
+      "sha256": "dad99b5c0423577a397b2f15a12171c4ae33d639af69bee563ca33fec86c14d6",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "dad99b5c0423577a397b2f15a12171c4ae33d639af69bee563ca33fec86c14d6",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/InsightEngine/tools/product_feedback.py",
+      "private_source_path": "engines/InsightEngine/tools/product_feedback.py",
+      "sha256": "a87df828a3cd3478b993cb948cad747a08a3b7088539ea25176df54240b67444",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "a87df828a3cd3478b993cb948cad747a08a3b7088539ea25176df54240b67444",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/InsightEngine/product_analysis.py",
+      "private_source_path": "engines/InsightEngine/product_analysis.py",
+      "sha256": "bccf1acf86cc2e4b6562efddeabc2b3e9480e843fa38fb937b97879cd6e0c03a",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "bccf1acf86cc2e4b6562efddeabc2b3e9480e843fa38fb937b97879cd6e0c03a",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/MediaEngine/product_analysis.py",
+      "private_source_path": "engines/MediaEngine/product_analysis.py",
+      "sha256": "9f79b3535ee0ad870437037397aef5ab811232dccdbde2b57aa1729c5c97b24c",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "9f79b3535ee0ad870437037397aef5ab811232dccdbde2b57aa1729c5c97b24c",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/QueryEngine/verification.py",
+      "private_source_path": "engines/QueryEngine/verification.py",
+      "sha256": "74be2a9046ec9602f57d9a24821fda86c304760cd7c923f7909fc8b2f7b06e20",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "74be2a9046ec9602f57d9a24821fda86c304760cd7c923f7909fc8b2f7b06e20",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/ForumEngine/evidence_synthesis.py",
+      "private_source_path": "engines/ForumEngine/evidence_synthesis.py",
+      "sha256": "e2b7771bfc5071706fd978133c7cf544abd5ef901843eb33381738d171386c90",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "e2b7771bfc5071706fd978133c7cf544abd5ef901843eb33381738d171386c90",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/ReportEngine/evidence_report.py",
+      "private_source_path": "engines/ReportEngine/evidence_report.py",
+      "sha256": "85cf49afabbc0db55c2f8adfd68e11515b7e0ea099d008816bfdeaddcda2f550",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "97e4d7bd03ee32987a16d627f77d742848fafae1e1c8098486b795adb13b7291",
+      "release_change": "Citation URL protocol and delimiter validation added during final publication security audit; private application unchanged"
+    },
+    {
+      "public_path": "integration/app/services/evidence_pipeline.py",
+      "private_source_path": "app/services/evidence_pipeline.py",
+      "sha256": "ed74dacd652f5e8dac5a761cbd827a86bb8db0bce608d60238e5269638d1d9ec",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "ed74dacd652f5e8dac5a761cbd827a86bb8db0bce608d60238e5269638d1d9ec",
+      "release_change": "Original local addition; line endings normalized for stable Git hashes"
+    },
+    {
+      "public_path": "integration/engines/common/evidence_runtime.py",
+      "private_source_path": "engines/common/evidence_runtime.py",
+      "sha256": "5c4be15b56aa8994b48504dfe61cf2106bce6aaae812792723907d1bc3617a2b",
+      "basis": "Added during V2 local work; absent from frozen upstream snapshot. Dependencies on omitted upstream are not bundled.",
+      "execution": "Source reference only. Not part of offline CI imports.",
+      "private_source_sha256": "6e67a66d401c76b700c3efb8679ca74bb06ae433aa3162716f6d913132317977",
+      "release_change": "Citation URL protocol and delimiter validation added during final publication security audit; private application unchanged"
+    }
+  ],
+  "extracts": [
+    {
+      "path": "portfolio_code/evidence_contract.py",
+      "from": "engines/common/evidence_runtime.py",
+      "symbols": [
+        "BANNED",
+        "resolve_quote",
+        "evidence_cards",
+        "cards_markdown"
+      ],
+      "release_change": "cards_markdown uses the shared safe_url validator; original evidence validation functions unchanged"
+    },
+    {
+      "path": "portfolio_code/source_quality.py",
+      "from": "engines/common/source_quality.py",
+      "symbols": [
+        "DOMAINS",
+        "classify"
+      ],
+      "method": "verbatim function extraction"
+    }
+  ]
+}

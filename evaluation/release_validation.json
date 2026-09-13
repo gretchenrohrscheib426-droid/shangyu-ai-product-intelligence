@@ -1,0 +1,111 @@
+{
+  "checked_on": "2026-09-13",
+  "scope": "Final local portfolio validation; private frontend build remains the previous verified build with no private frontend changes",
+  "database_recheck": {
+    "status": "PASS",
+    "raw_posts": 24,
+    "raw_comments": 83,
+    "method": "Read-only MySQL counts plus saved validation JSON"
+  },
+  "python_import": {
+    "status": "PASS",
+    "scope": "portfolio_code.evidence_contract and portfolio_code.source_quality"
+  },
+  "python_tests": {
+    "status": "PASS",
+    "passed": 20,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s tests -v",
+    "fixtures": "synthetic and aggregate-only; no network"
+  },
+  "prior_private_regressions": {
+    "passed": 23,
+    "scope": "Previously recorded V2 result; not rerun as public CI"
+  },
+  "frontend_build": {
+    "status": "PASS",
+    "scope": "Existing authorized private Vue frontend, excluded from package",
+    "command": "npm run build",
+    "actual_steps": "vue-tsc -b && vite build",
+    "warning": "Bundle over 500 kB; no frontend changes made for this release"
+  },
+  "public_document_build": {
+    "status": "PASS",
+    "command": "node scripts/build.mjs",
+    "not_a_vue_build": true
+  },
+  "local_ci_commands": {
+    "status": "PASS",
+    "scope": "20 Python fixture tests, Node security regression, syntax/build, static/security and link checks"
+  },
+  "github_actions": {
+    "status": "NOT_RUN",
+    "reason": "No upload; no passing badge claimed",
+    "yaml_parse": "PASS: six YAML files",
+    "paid_services": "No provider secrets, research calls, crawling or real database access"
+  },
+  "secret_scan": {
+    "status": "PASS",
+    "scope": "Current release files; heuristic scanner and manual minimized-data/image review",
+    "matched_values_printed": false
+  },
+  "links_markdown_json_python": {
+    "status": "PASS",
+    "external_links": "Primary upstream/action pages selectively checked; no exhaustive remote-link availability claim"
+  },
+  "source_provenance": {
+    "status": "PASS",
+    "original_new_files": 9,
+    "method": "Nine private additions absent from frozen upstream; public hashes recorded separately for two release-only URL-security patches"
+  },
+  "license_review": {
+    "mode": "PORTFOLIO_ONLY",
+    "inventory_review": "COMPLETE",
+    "full_redistribution": "BLOCKED",
+    "original_contribution_license": "DEFAULT_COPYRIGHT_NO_ADDITIONAL_REUSE_GRANT",
+    "restricted_upstream_included": false
+  },
+  "screenshots": {
+    "count": 3,
+    "type": "Actual report crops; original text unchanged",
+    "visual_review": "PASS",
+    "social_preview_dimensions": [
+      1280,
+      640
+    ]
+  },
+  "diagrams": {
+    "status": "PASS",
+    "method": "Code-generated SVG; both visually checked in browser"
+  },
+  "local_preview": {
+    "status": "PASS",
+    "checks": "Allowlisted Node server; 10 HTTP security assertions; Windows Node start/stop and HTTP 200 checked",
+    "temporary_servers": "Stopped",
+    "fixes": [
+      "Normalize process start time for safe PID comparison",
+      "Redirect root to preserve relative links",
+      "Allowlist and canonical path enforcement, hidden-file/alternate-stream denial",
+      "Citation URL scheme and Markdown-delimiter validation"
+    ]
+  },
+  "git": {
+    "status": "PASS",
+    "branch": "main",
+    "commits": 0,
+    "remote_count": 0,
+    "working_tree": "Expected untracked release files",
+    "ignore_checks": "PASS: environment, dependencies, runtime, cookies and models",
+    "metadata_bundled": false
+  },
+  "large_files": {
+    "status": "PASS",
+    "maximum_allowed_bytes": 10485760
+  },
+  "ready_to_publish": false,
+  "pending": [
+    "Remote clone and CI verification after authorized push"
+  ],
+  "final_audit": "FINAL_SECURITY_AUDIT.json",
+  "github_cli_auth": "PASS"
+}

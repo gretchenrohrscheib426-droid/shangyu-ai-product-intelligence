@@ -1,0 +1,15 @@
+# Documentation-only server. No MySQL, crawler or paid API services.
+services:
+  portfolio:
+    image: node:22-alpine
+    working_dir: /site
+    command: node scripts/serve.mjs
+    environment:
+      PORTFOLIO_CONTAINER: '1'
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - ./:/site:ro
+    read_only: true
+    security_opt:
+      - no-new-privileges:true

@@ -1,0 +1,1718 @@
+{
+  "checked_on": "2026-09-13",
+  "scope": "Private installed Python environment and frontend lockfile metadata. No packages, lockfile or dependency binaries redistributed. Metadata is not license clearance. UNKNOWN requires review before any later bundling. Public test/build scripts use standard libraries only.",
+  "python": [
+    {
+      "name": "aiofiles",
+      "version": "25.1.0",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "aiomysql",
+      "version": "0.3.2",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "asyncpg",
+      "version": "0.31.0",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "brotli",
+      "version": "1.2.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "observed_license": "MPL-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "observed_license": "MIT-0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "observed_license": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following co",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "cryptography",
+      "version": "46.0.3",
+      "observed_license": "Apache-2.0 OR BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "cssselect2",
+      "version": "0.10.1",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "observed_license": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributio",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0",
+      "observed_license": "Apache License, Version 2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "fastapi",
+      "version": "0.121.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.6",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.65.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "greenlet",
+      "version": "3.5.5",
+      "observed_license": "MIT AND PSF-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "httpcore2",
+      "version": "2.12.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "httpx2",
+      "version": "2.12.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "0.36.2",
+      "observed_license": "Apache",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "idna",
+      "version": "3.19",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "jiter",
+      "version": "0.16.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "json_repair",
+      "version": "0.44.1",
+      "observed_license": "MIT License\n\nCopyright (c) 2023 Stefano Baccianella\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Softw",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "jsonpatch",
+      "version": "1.33",
+      "observed_license": "Modified BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "jsonpointer",
+      "version": "3.1.1",
+      "observed_license": "Modified BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "observed_license": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langchain-core",
+      "version": "1.6.3",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langchain-deepseek",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langchain-openai",
+      "version": "1.1.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langchain-protocol",
+      "version": "0.0.19",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langgraph",
+      "version": "1.0.4",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langgraph-checkpoint",
+      "version": "3.0.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langgraph-prebuilt",
+      "version": "1.0.13",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langgraph-sdk",
+      "version": "0.2.15",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "langsmith",
+      "version": "0.12.4",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "loguru",
+      "version": "0.7.2",
+      "observed_license": "MIT license",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.7",
+      "observed_license": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or ",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "observed_license": "BSD",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "observed_license": "Copyright (c) 2005-2023, NumPy Developers.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n    * Redis",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "openai",
+      "version": "1.109.1",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "orjson",
+      "version": "3.12.0",
+      "observed_license": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "ormsgpack",
+      "version": "1.12.2",
+      "observed_license": "Apache-2.0 OR MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "observed_license": "Apache-2.0 OR BSD-2-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "observed_license": "MIT-CMU",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.12.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.11.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.41.1",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pydyf",
+      "version": "0.12.1",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "observed_license": "BSD-2-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "PyMySQL",
+      "version": "1.1.2",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pyphen",
+      "version": "0.18.1",
+      "observed_license": "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+); License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+); License :: OSI Approved :: Mozilla Public License 1.1 (MPL 1",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.2",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "1.3.0",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "observed_license": "Dual License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.1.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.10",
+      "observed_license": "Apache-2.0 AND CNRI-Python",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "requests",
+      "version": "2.32.5",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "observed_license": "Apache 2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "observed_license": "License :: OSI Approved :: Apache Software License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.7.2",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "scipy",
+      "version": "1.16.3",
+      "observed_license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditio",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "sentence-transformers",
+      "version": "5.1.2",
+      "observed_license": "Apache 2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "observed_license": "MIT OR Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "SQLAlchemy",
+      "version": "2.0.43",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "starlette",
+      "version": "0.49.3",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "observed_license": "BSD",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tavily-python",
+      "version": "0.7.24",
+      "observed_license": "License :: OSI Approved :: MIT License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tenacity",
+      "version": "9.1.4",
+      "observed_license": "Apache 2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.14.0",
+      "observed_license": "MIT License\n\nCopyright (c) 2022 OpenAI, Shantanu Jain\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Sof",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tinycss2",
+      "version": "1.5.1",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tinyhtml5",
+      "version": "2.1.0",
+      "observed_license": "License :: OSI Approved :: MIT License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "observed_license": "License :: OSI Approved :: Apache Software License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "torch",
+      "version": "2.9.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "observed_license": "MPL-2.0 AND MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "transformers",
+      "version": "4.57.1",
+      "observed_license": "Apache 2.0 License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.4",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "observed_license": "PSF-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "uuid_utils",
+      "version": "0.17.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.37.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "weasyprint",
+      "version": "68.1",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "webencodings",
+      "version": "0.6.1",
+      "observed_license": "License :: OSI Approved :: BSD License",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "websockets",
+      "version": "17.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "win32_setctime",
+      "version": "1.2.0",
+      "observed_license": "MIT license",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "wordcloud",
+      "version": "1.9.6",
+      "observed_license": "MIT",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "xxhash",
+      "version": "4.0.1",
+      "observed_license": "BSD-2-Clause",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "zopfli",
+      "version": "0.4.3",
+      "observed_license": "Apache-2.0",
+      "source": "installed distribution metadata; not bundled"
+    },
+    {
+      "name": "zstandard",
+      "version": "0.25.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "installed distribution metadata; not bundled"
+    }
+  ],
+  "frontend": [
+    {
+      "name": "@babel/generator",
+      "version": "7.29.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.27.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@ctrl/tinycolor",
+      "version": "4.2.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@element-plus/icons-vue",
+      "version": "2.3.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@emnapi/core",
+      "version": "1.10.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@emnapi/runtime",
+      "version": "1.10.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@emnapi/wasi-threads",
+      "version": "1.2.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@floating-ui/core",
+      "version": "1.7.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@floating-ui/dom",
+      "version": "1.7.6",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@floating-ui/utils",
+      "version": "0.2.11",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "version": "1.2.4",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.133.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@popperjs/core",
+      "version": "2.11.8",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.0-rc.13",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "version": "0.10.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@types/lodash",
+      "version": "4.17.24",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@types/lodash-es",
+      "version": "4.17.12",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@types/node",
+      "version": "24.12.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@types/web-bluetooth",
+      "version": "0.0.20",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vitejs/plugin-vue",
+      "version": "6.0.6",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@volar/language-core",
+      "version": "2.4.28",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@volar/source-map",
+      "version": "2.4.28",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@volar/typescript",
+      "version": "2.4.28",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue-macros/common",
+      "version": "3.1.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/compiler-core",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/compiler-dom",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/compiler-sfc",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/compiler-ssr",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-api",
+      "version": "7.7.9",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-kit",
+      "version": "7.7.9",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-shared",
+      "version": "7.7.9",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/language-core",
+      "version": "3.2.7",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/reactivity",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/runtime-core",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/runtime-dom",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/server-renderer",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/shared",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/tsconfig",
+      "version": "0.9.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vueuse/core",
+      "version": "12.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vueuse/metadata",
+      "version": "12.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vueuse/shared",
+      "version": "12.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "acorn",
+      "version": "8.16.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "agent-base",
+      "version": "6.0.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "alien-signals",
+      "version": "3.1.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "ast-kit",
+      "version": "2.2.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "ast-walker-scope",
+      "version": "0.8.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "async-validator",
+      "version": "4.2.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "asynckit",
+      "version": "0.4.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "axios",
+      "version": "1.18.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "birpc",
+      "version": "2.9.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "chokidar",
+      "version": "5.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "confbox",
+      "version": "0.2.4",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "copy-anything",
+      "version": "4.0.5",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "dayjs",
+      "version": "1.11.20",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "observed_license": "Apache-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "element-plus",
+      "version": "2.13.7",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "entities",
+      "version": "7.0.1",
+      "observed_license": "BSD-2-Clause",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "es-errors",
+      "version": "1.3.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "es-object-atoms",
+      "version": "1.1.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "exsolve",
+      "version": "1.0.8",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "follow-redirects",
+      "version": "1.16.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "form-data",
+      "version": "4.0.6",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "get-proto",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "gopd",
+      "version": "1.2.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "hookable",
+      "version": "5.5.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "5.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "is-what",
+      "version": "5.5.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.32.0",
+      "observed_license": "MPL-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "local-pkg",
+      "version": "1.1.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lodash",
+      "version": "4.18.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lodash-es",
+      "version": "4.18.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "lodash-unified",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "magic-string",
+      "version": "0.30.21",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "magic-string-ast",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "marked",
+      "version": "18.0.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "memoize-one",
+      "version": "6.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "mime-db",
+      "version": "1.52.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "mime-types",
+      "version": "2.1.35",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "mitt",
+      "version": "3.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "mlly",
+      "version": "1.8.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "confbox",
+      "version": "0.1.8",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "pkg-types",
+      "version": "1.3.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "muggle-string",
+      "version": "0.4.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.19",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "normalize-wheel-es",
+      "version": "1.2.0",
+      "observed_license": "BSD-3-Clause",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "path-browserify",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "pathe",
+      "version": "2.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "perfect-debounce",
+      "version": "1.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "observed_license": "ISC",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.4",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "pinia",
+      "version": "3.0.4",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "pkg-types",
+      "version": "2.3.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.28",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "proxy-from-env",
+      "version": "2.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "quansync",
+      "version": "0.2.11",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "readdirp",
+      "version": "5.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "rfdc",
+      "version": "1.4.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.0.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "scule",
+      "version": "1.3.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "speakingurl",
+      "version": "14.0.1",
+      "observed_license": "BSD-3-Clause",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "superjson",
+      "version": "2.2.6",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "observed_license": "0BSD",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "typescript",
+      "version": "6.0.3",
+      "observed_license": "Apache-2.0",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "ufo",
+      "version": "1.6.3",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "undici-types",
+      "version": "7.16.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "unplugin",
+      "version": "3.0.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "unplugin-utils",
+      "version": "0.3.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vite",
+      "version": "8.0.16",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vscode-uri",
+      "version": "3.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vue",
+      "version": "3.5.33",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vue-component-type-helpers",
+      "version": "3.2.7",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vue-router",
+      "version": "5.0.6",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-api",
+      "version": "8.1.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-kit",
+      "version": "8.1.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "@vue/devtools-shared",
+      "version": "8.1.1",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "perfect-debounce",
+      "version": "2.1.0",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "vue-tsc",
+      "version": "3.2.7",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "webpack-virtual-modules",
+      "version": "0.6.2",
+      "observed_license": "MIT",
+      "source": "private frontend lockfile metadata; not bundled"
+    },
+    {
+      "name": "yaml",
+      "version": "2.8.3",
+      "observed_license": "ISC",
+      "source": "private frontend lockfile metadata; not bundled"
+    }
+  ]
+}

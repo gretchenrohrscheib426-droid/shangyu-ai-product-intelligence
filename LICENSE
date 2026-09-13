@@ -1,0 +1,14 @@
+Portfolio publication notice — no blanket open-source license.
+
+The upstream platform has no root LICENSE in the audited reference snapshot.
+Its source, assets and third-party licenses are not relicensed by this repository.
+Restricted components have been excluded. New local contributions and documentation
+remain subject to their contributor(s)' rights where applicable. They are offered
+as a source-visible portfolio under default copyright, without an additional
+general permission to reuse, modify or commercially redistribute them. This notice
+does not restrict rights already granted by applicable law or GitHub's terms.
+See docs/LEGAL_AND_LICENSE.md, FINAL_LICENSE_AUDIT.md and NOTICE.md.
+
+This is not an MIT/Apache license. Restricted third-party source and original UI
+assets are excluded. The owner has authorized publication of the reduced portfolio
+conditional on all final audit gates passing; this does not relicense upstream code.

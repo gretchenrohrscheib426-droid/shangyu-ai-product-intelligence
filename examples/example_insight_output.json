@@ -1,0 +1,19 @@
+{
+  "data_label": "Example data",
+  "provenance": "Minimized paraphrase of reviewed case themes; not verbatim user text, not the raw dataset, not a new live run.",
+  "finding": "One reviewed comment described an Excel reporting workflow.",
+  "evidence_count": 1,
+  "sources": [
+    {
+      "id": "example-comment-01",
+      "kind": "paraphrased_example",
+      "text": "I use the assistant to summarize spreadsheet data.",
+      "url": null
+    }
+  ],
+  "confidence": "low",
+  "limitations": [
+    "Illustrative paraphrase; does not prove product capability."
+  ],
+  "example_type": "synthetic / anonymized example"
+}

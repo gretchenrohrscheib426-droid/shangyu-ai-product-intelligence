@@ -1,0 +1,51 @@
+{
+  "kind": "Actual locally generated PDF report crops",
+  "report_version": "V2 final reviewed report",
+  "images": [
+    {
+      "image": "report-cover.png",
+      "private_render_basename": "page-01.png",
+      "source_sha256": "c0d82f26ccce285c828b9f28bd588f627a40db1ff4d6e0dc1ec9cc14bc11523e",
+      "crop_xyxy": [
+        45,
+        155,
+        735,
+        390
+      ],
+      "operation": "crop only; report text unmodified"
+    },
+    {
+      "image": "research-scope.png",
+      "private_render_basename": "page-02.png",
+      "source_sha256": "4a5a2a46299068e9602304885e91dc0bc5d870ec7214b8a9cb5a0691107e971f",
+      "crop_xyxy": [
+        50,
+        80,
+        730,
+        490
+      ],
+      "operation": "crop only; report text unmodified"
+    },
+    {
+      "image": "report-limitations.png",
+      "private_render_basename": "final-14.png",
+      "source_sha256": "0e80915a8f40de0730ed1f73d176363af51a501225f39069d88964e90f860213",
+      "crop_xyxy": [
+        50,
+        375,
+        730,
+        735
+      ],
+      "operation": "crop only; report text unmodified"
+    }
+  ],
+  "social_preview": {
+    "size": [
+      1280,
+      640
+    ],
+    "source": "research-scope.png",
+    "edits": "resize and add project title/subtitle only"
+  },
+  "privacy_review": "Crops exclude source index, comments, usernames, account IDs and original UI/logo. PNG metadata removed by fresh save."
+}

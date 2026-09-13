@@ -1,0 +1,8 @@
+[project]
+name = "shangyu-portfolio-contracts"
+version = "0.1.0"
+description = "Offline evidence contracts for a source-grounded AI product research portfolio"
+requires-python = ">=3.11"
+dependencies = []
+[tool.ruff]
+line-length = 120

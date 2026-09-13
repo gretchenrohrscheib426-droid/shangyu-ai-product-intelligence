@@ -1,0 +1,38 @@
+{
+  "secret_scan": "PASS",
+  "git_history": "PASS",
+  "privacy": "PASS",
+  "screenshots": "PASS",
+  "metadata": "PASS",
+  "data": "PASS",
+  "license": "PASS",
+  "third_party_code": "PASS",
+  "readme_claims": "PASS",
+  "ci_security": "PASS",
+  "code_security": "PASS",
+  "docker": "PASS",
+  "links": "PASS",
+  "large_files": "PASS",
+  "overall": "PASS",
+  "license_mode": "PORTFOLIO_ONLY",
+  "checked_on": "2026-09-13",
+  "python_tests": 20,
+  "preview_regression_scenarios": 10,
+  "git_history_scope": {
+    "status": "PASS",
+    "commits": 0,
+    "all_objects": 111,
+    "scanned_text_objects": 107
+  },
+  "external_urls_checked": 10,
+  "public_images": 4,
+  "fresh_counts": {
+    "raw_posts": 24,
+    "raw_comments": 83
+  },
+  "scope": "Pre-publication audit of exact reduced portfolio; remote verification pending",
+  "github_auth": "PASS",
+  "published": false,
+  "ready_to_publish": true,
+  "publication_blocker": null
+}

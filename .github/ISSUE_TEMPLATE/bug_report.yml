@@ -1,0 +1,14 @@
+name: Bug report
+description: Report a portfolio contract or documentation problem
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and reproduction steps
+      description: Do not include keys, cookies, personal data or private filesystem paths.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior

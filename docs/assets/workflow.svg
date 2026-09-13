@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" role="img" aria-labelledby="title desc">
+<title id="title">From collected feedback to bounded product hypotheses</title><desc id="desc">Measured Doubao case | 24 raw posts and 83 raw comments | 2026-09-13 audit</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#64748b"/></marker></defs>
+<rect width="1000" height="410" rx="16" fill="#f8fafc"/>
+<text x="40" y="44" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#0f172a">From collected feedback to bounded product hypotheses</text>
+<text x="40" y="72" font-family="Arial,sans-serif" font-size="15" fill="#475569">Measured Doubao case | 24 raw posts and 83 raw comments | 2026-09-13 audit</text>
+<path d="M320 149 L360 149" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M640 149 L680 149" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M820 183 L820 275" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M680 309 L640 309" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M360 309 L320 309" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="115" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="180.0" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Prior collection + MySQL</text>
+<text x="180.0" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">24 posts / 83 comments</text>
+<rect x="360" y="115" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="500.0" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Relevance + comment selection</text>
+<text x="500.0" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">12 primary posts / 15 comments</text>
+<rect x="680" y="115" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="820.0" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Insight + Media</text>
+<text x="820.0" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">User sample + external sources</text>
+<rect x="680" y="275" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="820.0" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Query verification</text>
+<text x="820.0" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">1 verified / 3 partial claims</text>
+<rect x="360" y="275" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="500.0" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Forum review</text>
+<text x="500.0" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">0 consensus / 3 evidence gaps</text>
+<rect x="40" y="275" width="280" height="68" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="180.0" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Report + case study</text>
+<text x="180.0" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">5 core cards; labeled hypotheses</text>
+<text x="40" y="385" font-family="Arial,sans-serif" font-size="14" fill="#475569">Report claims were reviewed against evidence. Small convenience sample; no population-level accuracy claim.</text></svg>

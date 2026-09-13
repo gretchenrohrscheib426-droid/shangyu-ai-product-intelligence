@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" role="img" aria-labelledby="title desc">
+<title id="title">Shangyu | Actual V2 research architecture</title><desc id="desc">Private platform: two parallel research roles, then dependent verification and synthesis.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#64748b"/></marker></defs>
+<rect width="1000" height="690" rx="16" fill="#f8fafc"/>
+<text x="40" y="44" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#0f172a">Shangyu | Actual V2 research architecture</text>
+<text x="40" y="72" font-family="Arial,sans-serif" font-size="15" fill="#475569">Private platform: two parallel research roles, then dependent verification and synthesis.</text>
+<path d="M240 136 L320 136" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M710 136 L610 136" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M440 168 L275 224" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M500 168 L725 224" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M275 288 L420 350" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M725 288 L580 350" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M500 414 L500 460" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M500 524 L500 570" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M345 492 L260 492" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="104" width="200" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="140.0" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Vue 3 workbench</text>
+<text x="140.0" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Query + SSE progress</text>
+<rect x="320" y="104" width="290" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="465.0" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">FastAPI / SearchService</text>
+<text x="465.0" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">V2 evidence coordinator</text>
+<rect x="710" y="104" width="250" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="835.0" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">DeepSeek</text>
+<text x="835.0" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Shared configured LLM service</text>
+<rect x="130" y="224" width="290" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="275.0" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">InsightEngine</text>
+<text x="275.0" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">MySQL posts + comments</text>
+<rect x="580" y="224" width="290" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="725.0" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">MediaEngine</text>
+<text x="725.0" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Tavily media search</text>
+<rect x="345" y="350" width="310" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="500.0" y="377" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">QueryEngine</text>
+<text x="500.0" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Tavily claim verification</text>
+<rect x="345" y="460" width="310" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="500.0" y="487" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">ForumEngine</text>
+<text x="500.0" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Alignment, gaps, uncertainty</text>
+<rect x="345" y="570" width="310" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="500.0" y="597" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">ReportEngine</text>
+<text x="500.0" y="620" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">HTML / Markdown / PDF</text>
+<rect x="40" y="460" width="220" height="64" rx="10" fill="white" stroke="#cbd5e1"/>
+<text x="150.0" y="487" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Task state + event bus</text>
+<text x="150.0" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Per-task JSON; SSE events</text>
+<text x="40" y="665" font-family="Arial,sans-serif" font-size="14" fill="#475569">Source showcase excludes upstream UI, crawler and app shell. Query is not a third parallel research task.</text></svg>

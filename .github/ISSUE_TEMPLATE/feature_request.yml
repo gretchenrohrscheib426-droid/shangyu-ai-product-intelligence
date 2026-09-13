@@ -1,0 +1,10 @@
+name: Feature request
+description: Suggest a bounded portfolio improvement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need, evidence and proposed scope
+      description: Separate observations from hypotheses. Do not attach raw personal data.
+    validations:
+      required: true

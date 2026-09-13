@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-09-13",
+  "fresh_mysql_count": {
+    "posts": 24,
+    "comments": 83
+  },
+  "private_sources": [
+    {
+      "name": "relevance_audit.json",
+      "sha256": "f24e617fc63d28d1660fa50aff40ff17de11d4aa1815b2d02061eb6f3a419c7a"
+    },
+    {
+      "name": "report_evidence.json",
+      "sha256": "beac127d0eed025f8c5a982ac5dde46edd8b2377e2f11d41665e09dbc95be0dc"
+    },
+    {
+      "name": "final_validation.json",
+      "sha256": "93a90c49b160069af9064c9bb387992ae9cdabe69405b3f92672baed9cc93b4e"
+    },
+    {
+      "name": "usage.json",
+      "sha256": "983eef6e7dba39e8ad334a0162d72de2d01ca217450bc2f534f83abd71b35905"
+    }
+  ],
+  "scope": "Hashes identify private evidence inspected locally; no dataset or claim of public reproducibility of real collection."
+}

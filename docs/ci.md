@@ -1,0 +1,9 @@
+# Offline validation scope
+
+CI imports the runnable pure extracts, runs synthetic fixture unit tests, checks Python syntax and local Markdown/HTML links, runs the Node preview security regression and supplemental secret scan, builds the static aggregate document and scans publication files for secrets. It does not import the omitted application or reference repository secrets. Tests make no LLM, search, crawler or database calls. GitHub runner/action setup itself requires GitHub network access; application tests are offline.
+
+`npm run typecheck` checks JavaScript syntax for the documentation builder; it is **not a Vue/TypeScript application check**. Original Vue sources are excluded for licensing. Their real `vue-tsc -b && vite build` can be checked separately in an authorized private workspace using `scripts/test.ps1 -PrivateWorkspace ...`. Public CI explicitly records that exclusion instead of inventing a passing frontend result.
+
+Workflow files use the documented [checkout v4](https://github.com/actions/checkout/blob/v4/README.md), [setup-python v5](https://github.com/actions/setup-python/blob/v5/README.md) and [setup-node v4](https://github.com/actions/setup-node/blob/v4/README.md) major tags, checked on 2026-09-13. They have read-only repository permissions and do not persist checkout credentials. Dependabot is configured for action updates. These tags are not immutable SHA pins.
+
+Local command results are recorded in [release validation](../evaluation/release_validation.json). Remote GitHub Actions have **not run** because the owner has not approved upload. There is no build-passing badge. Secret checks are heuristic and inspect current files, not all future edits or historical commits; visual image review and provenance checks supplement them.

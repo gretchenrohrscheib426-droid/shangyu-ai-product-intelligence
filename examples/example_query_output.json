@@ -1,0 +1,11 @@
+{
+  "data_label": "Example data",
+  "provenance": "Minimized paraphrase of reviewed case themes; not verbatim user text, not the raw dataset, not a new live run.",
+  "claim": "The official terms describe AI cloud file storage.",
+  "status": "verified",
+  "evidence_ids": [
+    "example-official-01"
+  ],
+  "notes": "Verification is limited to the supplied official statement, not product performance.",
+  "example_type": "synthetic / anonymized example"
+}

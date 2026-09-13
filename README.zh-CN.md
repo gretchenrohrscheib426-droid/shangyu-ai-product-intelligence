@@ -47,7 +47,7 @@ Insight回答用户样本说什么；Media保留外部说法；Query核验产品
 发现无关帖子、评论未充分使用、Media空上下文、弱来源和过度概括；改为相关性过滤、评论关联、来源等级、事实核验、证据卡和Bad Case评测。失败和纠偏有记录，最终仍含助手语义复核。[真实复盘](docs/bad-cases.md)。
 
 ## 我的工作
-Windows环境复现、DeepSeek/Tavily集成、真实采集结果核对、API与导出调试、V2证据链改造、评测、案例和求职材料，过程使用AI编码辅助。上游提供原始架构、五角色、UI、提示词与爬虫集成，不能声称全部从零自研。[归属声明](NOTICE.md)。
+Windows环境复现、DeepSeek/Tavily集成、真实采集结果核对、API与导出调试、V2证据链改造、评测和案例文档，过程使用AI编码辅助。上游提供原始架构、五角色、UI、提示词与爬虫集成，不能声称全部从零自研。[归属声明](NOTICE.md)。
 
 ## 产品经理视角
 用于VOC整理、用户研究问题、功能线索、产品机会和内容运营假设；风险/情绪监测仍是探索性应用，不编造用户占比、增长收益或因果效果。
@@ -92,4 +92,3 @@ npm run dev
 ## 许可证与归属
 不统一添加MIT/Apache许可。原平台完整再分发未获明确授权，受限第三方组件已排除，采用展示模式并保留[上游归属](https://github.com/JxKim/sentiment_analysis_platform)。[最终许可审计](FINAL_LICENSE_AUDIT.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [manifest](publish_manifest.json)。原创新增内容采用默认版权，不额外授予开源再使用许可。
 
-[面试提纲](docs/interview-notes.zh-CN.md) · [三类岗位简历表述](docs/resume-bullets.md)。

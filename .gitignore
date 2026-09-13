@@ -45,3 +45,4 @@ login_state/
 *.xlsx
 *.jsonl
 *.parquet
+career/_materials/

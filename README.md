@@ -23,7 +23,7 @@ Shangyu combines real social-media feedback, web search, LLM reasoning, fact ver
 > **PORTFOLIO_ONLY:** This repository contains original local additions, documentation and executable offline contracts, not the complete platform. Some third-party components are excluded from this public portfolio due to their original licensing terms. See [license review](docs/LEGAL_AND_LICENSE.md). No raw dataset, login state or original UI/logo assets are included.
 
 ## Overview
-A multi-agent AI research platform for analyzing real-world user feedback, public sentiment, external media, product facts, and evidence-backed product opportunities. This candidate is a job-portfolio account of a privately reproduced system and its evidence-quality improvements.
+A multi-agent AI research platform for analyzing real-world user feedback, public sentiment, external media, product facts, and evidence-backed product opportunities. This repository documents a locally reproduced system and its evidence-quality improvements.
 
 ## Why This Project / Why this matters
 Most LLM demos focus on generation. This work focuses on data quality, evidence quality, source verification, bad cases and turning AI outputs into testable product hypotheses. It does not claim validated representative sentiment monitoring.
@@ -83,7 +83,7 @@ An [offline aggregate summary](docs/assets/demo/public-demo.html) contains no ra
 The private platform used Python 3.11, FastAPI, Vue 3/TypeScript/Pinia/Element Plus/Vite, MySQL 8, DeepSeek, Tavily and WeasyPrint. This portfolio's offline contracts use Python standard library; its documentation builder uses Node built-ins. LangGraph/sentiment dependencies belong to the larger upstream application, not a claimed new trained model.
 
 ## Project Structure / Code Walkthrough
-`integration/`: newly added source references; `portfolio_code/`: executable pure extracts; `docs/`: case, architecture and interview material; `evaluation/`: real aggregates; `examples/`: minimized teaching examples; `scripts/`: offline checks. [Ten review entries](docs/code-walkthrough.md).
+`integration/`: newly added source references; `portfolio_code/`: executable pure extracts; `docs/`: case studies, architecture and project documentation; `evaluation/`: real aggregates; `examples/`: minimized teaching examples; `scripts/`: offline checks. [Ten review entries](docs/code-walkthrough.md).
 
 ## Quick Start
 In this extracted portfolio directory, with Python 3.11+ and Node 22+:
@@ -108,4 +108,3 @@ For research and learning only. Respect platform terms and MediaCrawler's own li
 ## License & Attribution
 No blanket MIT/Apache license. Full upstream redistribution is not cleared. Some third-party components used during local research are excluded from this public portfolio because of their original licensing terms. See the [upstream project](https://github.com/JxKim/sentiment_analysis_platform), [final license audit](FINAL_LICENSE_AUDIT.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [manifest](publish_manifest.json). Original additions are source-visible under default copyright; no additional open-source reuse license is granted.
 
-Interview resources: [中文面试提纲](docs/interview-notes.zh-CN.md) · [resume bullets](docs/resume-bullets.md).

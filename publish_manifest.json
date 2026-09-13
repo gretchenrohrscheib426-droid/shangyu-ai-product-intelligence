@@ -56,8 +56,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 464,
-      "sha256": "c15afa3bbb883915d565b66054c9388540c954baf8e111c05a6f48c3ca4e1056"
+      "bytes": 483,
+      "sha256": "ee83c692352178475859aa7b2aa961e1ee055b662a7963f26e596860de5c50e8"
     },
     {
       "path": "AGENTS.md",
@@ -106,8 +106,8 @@
     },
     {
       "path": "PUBLIC_FILE_ALLOWLIST.txt",
-      "bytes": 2783,
-      "sha256": "5020f83865e2325a445be387bbff89caa67a293b40cd6a8bb03ad5820cb9eefa"
+      "bytes": 2730,
+      "sha256": "d1e56a41f34de9206cd6c13cb7df0615be1dd016b21da94a4390e5b3e749d77c"
     },
     {
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
@@ -121,13 +121,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9279,
-      "sha256": "c2162fe16fb498e30171a29e9004457ee9f2bb9de773a3f0302f506601059432"
+      "bytes": 9151,
+      "sha256": "f02180b11e5bdfb12dfe1f7014d6236a0d5c1273870b4bbebefdf6bc02bde9f0"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 7001,
-      "sha256": "9c1a7bc1df6970544a10a4ba762571c99c2e70681d7a8ba8b1b3931c449dcc1c"
+      "bytes": 6889,
+      "sha256": "d6cc23e7bb19ef92c2dbc1aee7bba2947ed462e9e4f432a2df4f9a21f37beb54"
     },
     {
       "path": "README_CLAIM_AUDIT.md",
@@ -216,8 +216,8 @@
     },
     {
       "path": "docs/case-study-doubao.md",
-      "bytes": 4494,
-      "sha256": "7e9d9371229059a7947e04601905dc60b702394842827427aef6438e62a37e15"
+      "bytes": 4490,
+      "sha256": "bd5d90a2b5a5ffe46fcc0b05c351a6b87d28387ad53cd62ac7e106ef031c4396"
     },
     {
       "path": "docs/ci.md",
@@ -260,11 +260,6 @@
       "sha256": "0223b6d546bc8ad66a0fabe9d20cbc998ec01b274af774c7a8d20f93f9968f68"
     },
     {
-      "path": "docs/interview-notes.zh-CN.md",
-      "bytes": 2722,
-      "sha256": "3e461fdfda51db7d56a734ba6b23bd5b081df94a06ec0a845a2359ce16f17f4a"
-    },
-    {
       "path": "docs/privacy.md",
       "bytes": 985,
       "sha256": "2b25e6c385b756b73e2f6c7912ec3df2b44d9ce08ff893c74ffc7ca6449cdfd4"
@@ -283,11 +278,6 @@
       "path": "docs/quickstart.zh-CN.md",
       "bytes": 1389,
       "sha256": "a5a87e943b0400f85b4d3a61894ec14d1ae52afef66756fe457f0978e0000892"
-    },
-    {
-      "path": "docs/resume-bullets.md",
-      "bytes": 2206,
-      "sha256": "50937b20a6535581e36460905088bd18726ff0aab21ec87949543a8897f13fd3"
     },
     {
       "path": "docs/security.md",
@@ -570,7 +560,7 @@
     "remote_ci": "PASS for initial publication commit; see PUBLISHED_RELEASE_RECORD.md",
     "remote_scan": "PASS for initial publication commit; 0 unexpected files"
   },
-  "file_count": 102,
+  "file_count": 100,
   "self_hash_note": "Manifest lists itself without recursive size/hash; every other file has exact bytes and SHA256",
   "published": true,
   "verified_initial_commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a"

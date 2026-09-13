@@ -49,12 +49,10 @@ docs/data-pipeline.md
 docs/dependency-inventory.json
 docs/evaluation.md
 docs/github-metadata.md
-docs/interview-notes.zh-CN.md
 docs/privacy.md
 docs/product-overview.md
 docs/quickstart.md
 docs/quickstart.zh-CN.md
-docs/resume-bullets.md
 docs/security.md
 docs/troubleshooting.md
 evaluation/README.md

@@ -43,4 +43,4 @@ The important iteration was evidence loss and attribution repair, not longer pro
 Single platform, small convenience sample, no image/video inspection, no blind human labels and no controlled A/B. Rule tuning used the same labeled set. Public examples are paraphrases and cannot reproduce the private study. LLM reasoning and editorial review still introduce subjectivity.
 
 ## 15. What I Learned
-Data quality, evidence lineage and explicit uncertainty are product requirements. Clear role contracts let an interviewer inspect why a conclusion survived validation. My contribution was reproduction, integration, diagnostics and evidence-quality improvements with AI assistance; the upstream five-role architecture is credited separately.
+Data quality, evidence lineage and explicit uncertainty are product requirements. Clear role contracts let a reviewer inspect why a conclusion survived validation. My contribution was reproduction, integration, diagnostics and evidence-quality improvements with AI assistance; the upstream five-role architecture is credited separately.

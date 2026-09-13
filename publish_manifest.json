@@ -71,13 +71,13 @@
     },
     {
       "path": "FINAL_SECURITY_AUDIT.json",
-      "bytes": 926,
-      "sha256": "fd22c6325d2d20a3c637f8827408d240983e5022ce51634f986d4ebfa308bc6c"
+      "bytes": 1790,
+      "sha256": "d5c6f8614a4bd849afad86e720e5ba42b024d9d128c44b9299c626276e30a5c7"
     },
     {
       "path": "FINAL_SECURITY_AUDIT.md",
-      "bytes": 1921,
-      "sha256": "1a4b6bcfa81fd96a869b46b811a7d926d203e4b6ed5b0782c5a08bac47e94859"
+      "bytes": 2046,
+      "sha256": "c5ec7753623ee3c305936adc5a10e4ba9ace24802f7389eb6cae2c94342d63ab"
     },
     {
       "path": "GITHUB_RELEASE_AUDIT.md",
@@ -106,23 +106,28 @@
     },
     {
       "path": "PUBLIC_FILE_ALLOWLIST.txt",
-      "bytes": 2755,
-      "sha256": "be4151ccfc14135edc74bae6bf655b77d73377157fa5512e5b5311beb138d75c"
+      "bytes": 2783,
+      "sha256": "5020f83865e2325a445be387bbff89caa67a293b40cd6a8bb03ad5820cb9eefa"
     },
     {
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
-      "bytes": 1751,
-      "sha256": "70784b2e132feb5afea8ee08e4b492a8da1d83c21f26bf041d5e20b02f4f75c8"
+      "bytes": 1900,
+      "sha256": "9b0ff81d73f186ab74cc3b38a2c7e9a329c87fbfa3048cde09273a51e0440bb6"
+    },
+    {
+      "path": "PUBLISHED_RELEASE_RECORD.md",
+      "bytes": 2740,
+      "sha256": "27c9a826d4ed9a2b801b9c55afcb6dd7914ee2762b91575d1745defb95b26196"
     },
     {
       "path": "README.md",
-      "bytes": 9204,
-      "sha256": "6ba560755f909792a72fd4369892b6c2a0c746b048940672618a25342cd49232"
+      "bytes": 9279,
+      "sha256": "c2162fe16fb498e30171a29e9004457ee9f2bb9de773a3f0302f506601059432"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 6946,
-      "sha256": "0259eaff94d59e3ecd2c803af9a5631e51d51dc4886da5538a8ae647a99604fd"
+      "bytes": 7001,
+      "sha256": "9c1a7bc1df6970544a10a4ba762571c99c2e70681d7a8ba8b1b3931c449dcc1c"
     },
     {
       "path": "README_CLAIM_AUDIT.md",
@@ -216,8 +221,8 @@
     },
     {
       "path": "docs/ci.md",
-      "bytes": 1781,
-      "sha256": "bd618f947ec8952b3efa1d4d2f88e395583587362677380ceca7a1d84eb971b5"
+      "bytes": 1836,
+      "sha256": "80aa98e41237104b2807e723b03a12d80bc35932e1868d7f41c85d2f9ae90362"
     },
     {
       "path": "docs/code-provenance.json",
@@ -276,8 +281,8 @@
     },
     {
       "path": "docs/quickstart.zh-CN.md",
-      "bytes": 1322,
-      "sha256": "9ebbed6600d36f8df719f3bfce17b282acb2ab56d0624db3d2d2fc2bda0cb819"
+      "bytes": 1389,
+      "sha256": "a5a87e943b0400f85b4d3a61894ec14d1ae52afef66756fe457f0978e0000892"
     },
     {
       "path": "docs/resume-bullets.md",
@@ -291,8 +296,8 @@
     },
     {
       "path": "docs/troubleshooting.md",
-      "bytes": 977,
-      "sha256": "26cdb100b84725616200b444a11b7d2911dfb8541c7e29ea86c37469b1ce88f8"
+      "bytes": 1005,
+      "sha256": "b747ac1d49a8d6208d4939249d3bcabc8012e783f7a98f2fed419f51fbcfddd4"
     },
     {
       "path": "evaluation/README.md",
@@ -316,8 +321,8 @@
     },
     {
       "path": "evaluation/release_validation.json",
-      "bytes": 3777,
-      "sha256": "8ee3f89f7ae628be5b3280f439b24b20bc6aca6547ce05028da2c6d892a1aca2"
+      "bytes": 4523,
+      "sha256": "702816ec0383f1ca601308cf9fa31e66800b367e2146ff39b2b1ede15557cad5"
     },
     {
       "path": "evaluation/sample_results.json",
@@ -356,8 +361,8 @@
     },
     {
       "path": "integration/README.md",
-      "bytes": 755,
-      "sha256": "81ebae345f9c476a721e1ab79d460a88d8f13cfc64982f34eaf6e8a3522dc8ce"
+      "bytes": 823,
+      "sha256": "35004dd308c6f7b9584b0dbd42b259065037732e07b9b67e16a6aaddc68b190e"
     },
     {
       "path": "integration/app/services/evidence_pipeline.py",
@@ -562,9 +567,11 @@
   "checks": {
     "python": "20 tests passed",
     "preview": "10 HTTP security assertions passed",
-    "remote_ci": "NOT_RUN",
-    "remote_scan": "NOT_RUN"
+    "remote_ci": "PASS for initial publication commit; see PUBLISHED_RELEASE_RECORD.md",
+    "remote_scan": "PASS for initial publication commit; 0 unexpected files"
   },
-  "file_count": 101,
-  "self_hash_note": "Manifest lists itself without recursive size/hash; every other file has exact bytes and SHA256"
+  "file_count": 102,
+  "self_hash_note": "Manifest lists itself without recursive size/hash; every other file has exact bytes and SHA256",
+  "published": true,
+  "verified_initial_commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a"
 }

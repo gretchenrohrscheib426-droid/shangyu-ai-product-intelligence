@@ -30,9 +30,34 @@
     "raw_posts": 24,
     "raw_comments": 83
   },
-  "scope": "Pre-publication audit of exact reduced portfolio; remote verification pending",
+  "scope": "Pre-publication security gates plus first-publication remote verification; exact commit scope recorded separately",
   "github_auth": "PASS",
-  "published": false,
+  "published": true,
   "ready_to_publish": true,
-  "publication_blocker": null
+  "publication_blocker": null,
+  "remote_verification": {
+    "status": "PASS",
+    "commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a",
+    "unexpected_files": 0
+  },
+  "github_actions": {
+    "status": "PASS",
+    "commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 34749723077,
+        "name": "Offline portfolio checks",
+        "status": "completed",
+        "url": "https://github.com/gretchenrohrscheib426-droid/shangyu-ai-product-intelligence/actions/runs/34749723077"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 34749723084,
+        "name": "Offline secret scan",
+        "status": "completed",
+        "url": "https://github.com/gretchenrohrscheib426-droid/shangyu-ai-product-intelligence/actions/runs/34749723084"
+      }
+    ]
+  }
 }

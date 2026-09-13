@@ -87,7 +87,7 @@ npm run dev
 单平台小样本、外部API依赖、来源质量不一、日期缺失、未读图像视频；LLM输出需复核。不针对生产级大规模爬虫。独立盲测、跨产品泛化和商业收益尚未测量。
 
 ## 负责任使用
-仅用于研究与学习，遵守平台条款和MediaCrawler自身许可，控制请求频率，不绕过验证码或访问控制，不采集私有信息，不进行未授权商业抓取。不提交Key、Cookie、认证数据、私人画像或原始评论集；公开示例脱敏并改写。[隐私](docs/privacy.md) · [安全](docs/security.md)。CI不调用付费接口或真实数据库。GitHub尚未运行CI，不显示虚假通过徽章。预览及私有平台均面向本地开发，未证明具备适合公网生产的认证、限流与RBAC。
+仅用于研究与学习，遵守平台条款和MediaCrawler自身许可，控制请求频率，不绕过验证码或访问控制，不采集私有信息，不进行未授权商业抓取。不提交Key、Cookie、认证数据、私人画像或原始评论集；公开示例脱敏并改写。[隐私](docs/privacy.md) · [安全](docs/security.md)。CI不调用付费接口或真实数据库。首次发布提交的两项GitHub Actions均已通过，详见[发布记录](PUBLISHED_RELEASE_RECORD.md)。预览及私有平台均面向本地开发，未证明具备适合公网生产的认证、限流与RBAC。
 
 ## 许可证与归属
 不统一添加MIT/Apache许可。原平台完整再分发未获明确授权，受限第三方组件已排除，采用展示模式并保留[上游归属](https://github.com/JxKim/sentiment_analysis_platform)。[最终许可审计](FINAL_LICENSE_AUDIT.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [manifest](publish_manifest.json)。原创新增内容采用默认版权，不额外授予开源再使用许可。

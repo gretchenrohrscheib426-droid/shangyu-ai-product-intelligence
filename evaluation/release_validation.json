@@ -39,10 +39,27 @@
     "scope": "20 Python fixture tests, Node security regression, syntax/build, static/security and link checks"
   },
   "github_actions": {
-    "status": "NOT_RUN",
-    "reason": "No upload; no passing badge claimed",
+    "status": "PASS",
+    "reason": "Both required workflows succeeded for the first published commit",
     "yaml_parse": "PASS: six YAML files",
-    "paid_services": "No provider secrets, research calls, crawling or real database access"
+    "paid_services": "No provider secrets, research calls, crawling or real database access",
+    "commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 34749723077,
+        "name": "Offline portfolio checks",
+        "status": "completed",
+        "url": "https://github.com/gretchenrohrscheib426-droid/shangyu-ai-product-intelligence/actions/runs/34749723077"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 34749723084,
+        "name": "Offline secret scan",
+        "status": "completed",
+        "url": "https://github.com/gretchenrohrscheib426-droid/shangyu-ai-product-intelligence/actions/runs/34749723084"
+      }
+    ]
   },
   "secret_scan": {
     "status": "PASS",
@@ -92,20 +109,20 @@
   "git": {
     "status": "PASS",
     "branch": "main",
-    "commits": 0,
-    "remote_count": 0,
-    "working_tree": "Expected untracked release files",
+    "commits": 1,
+    "remote_count": 1,
+    "working_tree": "Clean first-publication commit verified by fresh remote clone",
     "ignore_checks": "PASS: environment, dependencies, runtime, cookies and models",
-    "metadata_bundled": false
+    "metadata_bundled": false,
+    "commit_sha": "f72ae5938513803d97081a10e3d0bc331178529a"
   },
   "large_files": {
     "status": "PASS",
     "maximum_allowed_bytes": 10485760
   },
-  "ready_to_publish": false,
-  "pending": [
-    "Remote clone and CI verification after authorized push"
-  ],
+  "ready_to_publish": true,
+  "pending": [],
   "final_audit": "FINAL_SECURITY_AUDIT.json",
-  "github_cli_auth": "PASS"
+  "github_cli_auth": "PASS",
+  "publication_record": "PUBLISHED_RELEASE_RECORD.md"
 }

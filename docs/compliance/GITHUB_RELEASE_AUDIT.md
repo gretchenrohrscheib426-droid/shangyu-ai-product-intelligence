@@ -26,4 +26,4 @@ Relevance precision 17/17 on a 24-item development set is not model accuracy or 
 
 Full-source redistribution is not cleared. The candidate contains locally added code with provenance and independently authored documentation/tooling; modified upstream files are not included. No MIT or Apache blanket grant is added. The final phase uses default copyright for original additions and the owner's conditional public-portfolio authorization; no new blanket reuse grant is made. Original UI/logo screenshots are excluded because asset rights are unresolved. Actual locally generated report crops are used instead; they do not depict live-running agents.
 
-The package can be reviewed locally. Current gate results and readiness are recorded in FINAL_SECURITY_AUDIT.json and publish_manifest.json. GitHub Actions are prepared but cannot have been executed on GitHub before upload.
+The package can be reviewed locally. Current gate results and readiness are recorded in [the security audit](FINAL_SECURITY_AUDIT.json) and [the file manifest](../../publish_manifest.json). GitHub Actions are prepared but cannot have been executed on GitHub before upload.

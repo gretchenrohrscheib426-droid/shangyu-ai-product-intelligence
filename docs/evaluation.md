@@ -1,5 +1,7 @@
 # Evidence quality evaluation
 
+**Scope: small development evaluation on a small in-sample development set, with assistant-assisted labels; not an independent benchmark.** These measurements assess evidence handling in the inspected case, not general model performance.
+
 |Metric|Measured result|Interpretation|
 |---|---|---|
 |Relevance precision|17/17 = 100%; development set n=24|Assistant-assisted labels; same-data development regression, not blind generalization|
@@ -12,4 +14,4 @@
 
 Aggregate results are in [sample_results.json](../evaluation/sample_results.json); source-file hashes in [provenance.json](../evaluation/provenance.json). Real raw data and the complete golden set are intentionally withheld. Public unit tests validate the contracts on clearly labeled fixtures and cannot reproduce the private data metrics.
 
-The private app passed 23 offline regressions and live export checks. The portfolio's smaller test count is reported separately in publish_manifest.json. V1/V2 queries differ, so do not claim a controlled performance gain. Classification rules, quoted text and Forum summaries can still be wrong; source review remains necessary.
+The private app passed 23 offline regressions and live export checks. The public offline tests are documented separately in [CI scope](ci.md). V1/V2 queries differ, so do not claim a controlled performance gain. Classification rules, quoted text and Forum summaries can still be wrong; source review remains necessary.

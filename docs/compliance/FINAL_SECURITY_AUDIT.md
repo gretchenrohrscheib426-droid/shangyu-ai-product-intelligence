@@ -26,6 +26,6 @@ Methods: official Gitleaks (100% redaction, recursive decoding), independent cre
 
 The pre-publication repository has zero commits. All existing Git objects were scanned; a separate final staged scan is required after allowlist staging. Suspicious source mentions were reviewed as generated fixture expressions, source identifiers, official dependency names and declared file hashes. No actual secret was found.
 
-[Image audit](IMAGE_PRIVACY_AUDIT.md) · [License audit](FINAL_LICENSE_AUDIT.md) · [Claim audit](README_CLAIM_AUDIT.md) · [Code security](docs/code-security.md) · [Excluded files](PUBLIC_EXCLUDED_FILES.md).
+[Image audit](IMAGE_PRIVACY_AUDIT.md) · [License audit](FINAL_LICENSE_AUDIT.md) · [Claim audit](README_CLAIM_AUDIT.md) · [Code security](../code-security.md) · [Excluded files](PUBLIC_EXCLUDED_FILES.md).
 
 GitHub CLI authorization is verified. This document records the pre-publication gate; the post-publication record will report the actual remote outcome. Remote checks were pending at that pre-publication gate. They subsequently passed for the first published commit, as recorded in [publication record](PUBLISHED_RELEASE_RECORD.md). Local security PASS never substitutes for staged/history checks after a commit or for post-push verification.

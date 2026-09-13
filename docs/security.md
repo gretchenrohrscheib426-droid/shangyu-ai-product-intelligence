@@ -8,4 +8,4 @@ The preview serves only the explicit allowlist and confines resolved paths to th
 
 CI performs no paid research, login, collection or database access and receives no provider secrets. Use only synthetic fixtures. Never post credentials in issues or pull requests. If a real credential is found in public history, stop immediately and rotate it privately before addressing history; deleting the current file alone is insufficient.
 
-The [final security audit](../FINAL_SECURITY_AUDIT.md) is scoped to its recorded snapshot. Re-run all checks after changes. A scanner is heuristic; PASS is not an unlimited legal or security guarantee.
+The [final security audit](compliance/FINAL_SECURITY_AUDIT.md) is scoped to its recorded snapshot. Re-run all checks after changes. A scanner is heuristic; PASS is not an unlimited legal or security guarantee.

@@ -12,4 +12,4 @@
 |Private baseline diffs, audit tool binaries and audit working directories|Local audit artifacts, not portfolio content|
 |Prior ZIP candidates and packaging helpers outside this repository|Superseded or local-only material; never stage a parent directory|
 
-Only files listed in [PUBLIC_FILE_ALLOWLIST.txt](PUBLIC_FILE_ALLOWLIST.txt) may be staged. The authenticated Git metadata needed for publishing is separate from the archive payload; commits are scanned before push. Examples are synthetic / anonymized examples, not the raw study dataset.
+Only files listed in [PUBLIC_FILE_ALLOWLIST.txt](../../PUBLIC_FILE_ALLOWLIST.txt) may be staged. The authenticated Git metadata needed for publishing is separate from the archive payload; commits are scanned before push. Examples are synthetic / anonymized examples, not the raw study dataset.

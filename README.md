@@ -2,109 +2,110 @@
 
 **Multi-Agent AI Product Sentiment & User Feedback Intelligence Platform**
 
-[中文文档](README.zh-CN.md) · [Case study](docs/case-study-doubao.md) · [Code walkthrough](docs/code-walkthrough.md)
+Turn real-world user feedback into evidence-backed product insights through multi-agent research, web search and fact verification.
 
-Shangyu combines real social-media feedback, web search, LLM reasoning, fact verification and evidence-aware reports for AI product research.
+[中文文档](README.zh-CN.md) · [Case Study](docs/case-study-doubao.md) · [Architecture](docs/architecture.md)
 
-**Real-world demo:** Doubao AI Assistant user experience, reputation and product opportunities — **24 real posts · 83 real comments**, rechecked on 2026-09-13.
+**REAL-WORLD CASE · Doubao AI Assistant**  
+**24 real posts · 83 real comments**  
+DeepSeek + Tavily + MySQL  
+Insight / Media / Query / Forum / Report
 
-**Stack used in the private platform:** Python · FastAPI · Vue 3 · MySQL · DeepSeek · Tavily · SSE · WeasyPrint.
+![Real Doubao report: data scope and research window](docs/assets/screenshots/research-scope.png)
 
-![Actual V2 architecture](docs/assets/architecture.svg)
+## What It Does
 
-|✓ Validated locally|✓ Quality work|Scope|
-|---|---|---|
-|Real social data; multi-role research|Comment integration; bad-case evaluation|One small private case|
-|Web search and bounded verification|Evidence-aware conclusions|LLM results still reviewed|
-|SSE progress; HTML/MD/PDF reports|Persisted state and source cards|Local demo, not production monitoring|
+- **Real Data:** organize 24 posts / 83 comments into a traceable user-feedback case.
+- **Multi-Agent Pipeline:** Insight + Media → Query → Forum → Report, combining user voices, external information and verification.
+- **Evidence-aware Iteration:** noise filtering, comment integration, source grading and claim verification connect findings to evidence.
 
-![Actual aggregate report crop](docs/assets/screenshots/research-scope.png)
+## Why I Built / Reproduced This
 
-> **PORTFOLIO_ONLY:** This repository contains original local additions, documentation and executable offline contracts, not the complete platform. Some third-party components are excluded from this public portfolio due to their original licensing terms. See [license review](docs/LEGAL_AND_LICENSE.md). No raw dataset, login state or original UI/logo assets are included.
+AI product feedback is scattered across posts, comments and media. LLM summaries can lose useful details or turn a few opinions into broad conclusions. I reproduced Shangyu to connect collection, search and evidence checks in one inspectable research workflow.
 
-## Overview
-A multi-agent AI research platform for analyzing real-world user feedback, public sentiment, external media, product facts, and evidence-backed product opportunities. This repository documents a locally reproduced system and its evidence-quality improvements.
+## How It Works
 
-## Why This Project / Why this matters
-Most LLM demos focus on generation. This work focuses on data quality, evidence quality, source verification, bad cases and turning AI outputs into testable product hypotheses. It does not claim validated representative sentiment monitoring.
+![Multi-Agent architecture and evidence flow](docs/assets/architecture.svg)
 
-## Demo Case: Doubao AI Assistant
-Learning and office scenarios, bounded to the collected sample. Actual posts clustered on Sep 1–12 within a requested 90-day window. Findings include spreadsheet reporting, iterative drawing and conflicting coding impressions. Read the [evidence → judgment → product meaning case](docs/case-study-doubao.md).
+**Insight** reads MySQL feedback while **Media** searches with Tavily; these roles run in parallel. **Query** verifies their product claims. **Forum** aligns findings and evidence gaps. **Report** produces HTML / Markdown / PDF, with SSE exposing progress throughout the workflow.
 
-## Key Results
-|Measured private case|Result|
+## Real-World Case: Doubao AI Assistant
+
+**Data Scope: 24 posts / 83 comments.** Research focused on learning and office scenarios: what users were doing, pain points, needs and product opportunities. The case follows spreadsheet reporting, scientific drawing and coding feedback from evidence to proposed next steps. [Read the case study](docs/case-study-doubao.md).
+
+## V1 → V2
+
+|V1 Problem|V2 Improvement|
 |---|---|
-|Fresh database scope|24 posts / 83 comments|
-|Primary model input|12 posts / 15 comments|
-|Relevant development predictions|17/17; total n=24|
-|Core citation coverage|5/5|
-|Fact audit|17 supported / 3 partially supported; n=20|
-|Product / operations hypotheses|1 / 2|
-|Verified exports|HTML / Markdown / 15-page PDF|
+|Noise results|Relevance filtering|
+|Comments underused|Comment integration|
+|Empty Media context|Search pipeline repair and nonempty-output checks|
+|Weak sources|Source grading|
+|LLM over-generalization|Evidence cards and bounded claims|
 
-The precision result is in-sample development evaluation with assistant-assisted labels, not model accuracy. Citation coverage does not prove user statements objectively true. V1/V2 prompts differ; this is not a controlled A/B test.
+[Bad Cases](docs/bad-cases.md) · [Evidence & Evaluation](docs/evaluation.md)
 
-## Architecture / Multi-Agent Workflow
-Vue 3 → FastAPI/SearchService → **Insight + Media in parallel** → Query verification → Forum synthesis → Report. Query deliberately waits for upstream targets. [Architecture](docs/architecture.md) · [workflow drawing](docs/assets/workflow.svg).
+## Product Value
 
-## Agent Responsibilities
-Insight: user sample. Media: external statements. Query: claim verification. Forum: evidence alignment/gaps. Report: supported conclusions and labeled hypotheses. [Inputs, tools, outputs and failures](docs/agent-design.md).
+Shangyu can support:
 
-## Real Data Pipeline / Evidence-aware Analysis
-Prior approved collection → MySQL → explicit post/comment join → relevance and information filtering → actual model payload → quote/ID checks → findings. Nothing enters the model just because it exists in MySQL. [Pipeline details](docs/data-pipeline.md).
+- Voice-of-Customer triage and user feedback clustering
+- Product issue discovery and feature hypothesis generation
+- Content / operations planning and evidence-backed research
 
-## From V1 to V2 / Bad Cases & Iteration
-V1 exposed irrelevant posts, missed comments, empty Media context, weak sources and LLM over-generalization. V2 added relevance filtering, comment integration, source grading, claim verification, evidence cards and bad-case evaluation. [Real failures and fixes](docs/bad-cases.md). Corrective outputs are not hidden; the final case includes assistant review.
+## My Contribution
 
-## My Work
-- Reproduced the existing system on Windows with separate environments and local storage; integrated configured DeepSeek/Tavily and verified MySQL data.
-- Traced the real data-to-prompt chain, debugged APIs/exports and added the V2 evidence workflow with AI coding assistance.
-- Verified real engine/state/SSE/report artifacts, created evaluations and product/operations hypotheses, and prepared a privacy-minimized portfolio.
-- **Upstream:** architecture, original agents/prompts, UI and crawler integration. I do not claim to have designed the entire platform from scratch. [Attribution](NOTICE.md).
+Environment reproduction; DeepSeek and Tavily integration; real data collection through the existing integration; MySQL validation; pipeline and export debugging; evidence-quality iteration and Bad Case analysis. Development and review used AI assistance.
 
-## Product Perspective
-Supports VOC triage, research planning, feature/opportunity discovery and content-operation hypotheses. Sentiment/risk monitoring is an exploratory use case; frequency, causal impact and continuous coverage are not demonstrated.
-
-## LLM Application Perspective
-Role orchestration, tool integration, structured outputs, stage state, SSE, external search, claim verification and report rendering. A shared evidence contract makes failures inspectable; more agents alone do not establish quality.
-
-## Evaluation
-[Methodology](docs/evaluation.md) · [aggregate results](evaluation/sample_results.json) · [private evidence hashes](evaluation/provenance.json). Public fixtures are separately labeled and do not reproduce the private collection.
-
-## Demo
-Three actual report crops, not recreated UI or live-running-agent claims. [Image provenance](docs/assets/screenshots/README.md).
-
-![Report cover](docs/assets/screenshots/report-cover.png)
-![Report limitations](docs/assets/screenshots/report-limitations.png)
-
-An [offline aggregate summary](docs/assets/demo/public-demo.html) contains no raw comments or original user IDs. The full original report is intentionally private.
+Upstream architecture is credited separately, including the original five-role design, UI, prompts and crawler integration. [Contribution boundaries](NOTICE.md).
 
 ## Tech Stack
-The private platform used Python 3.11, FastAPI, Vue 3/TypeScript/Pinia/Element Plus/Vite, MySQL 8, DeepSeek, Tavily and WeasyPrint. This portfolio's offline contracts use Python standard library; its documentation builder uses Node built-ins. LangGraph/sentiment dependencies belong to the larger upstream application, not a claimed new trained model.
 
-## Project Structure / Code Walkthrough
-`integration/`: newly added source references; `portfolio_code/`: executable pure extracts; `docs/`: case studies, architecture and project documentation; `evaluation/`: real aggregates; `examples/`: minimized teaching examples; `scripts/`: offline checks. [Ten review entries](docs/code-walkthrough.md).
+Python · FastAPI · Vue 3 · MySQL · DeepSeek · Tavily · SSE · WeasyPrint
 
-## Quick Start
-In this extracted portfolio directory, with Python 3.11+ and Node 22+:
+## Demo
+
+The local run produced **HTML / Markdown / PDF outputs**. Below is a crop of the actual final report; screenshot text and numbers are unchanged.
+
+![Final Doubao report output](docs/assets/screenshots/report-cover.png)
+
+[Report screenshot provenance](docs/assets/screenshots/README.md) · [Offline case summary](docs/assets/demo/public-demo.html)
+
+## Code Walkthrough
+
+- [Coordinator](integration/app/services/evidence_pipeline.py): role dependencies, stage state and SSE.
+- [Feedback adapter](integration/engines/InsightEngine/tools/product_feedback.py): SQL joins and sample selection.
+- [Source grading](portfolio_code/source_quality.py) and [evidence contracts](portfolio_code/evidence_contract.py): inspectable checks.
+- [Report assembly](integration/engines/ReportEngine/evidence_report.py): structured findings and source cards.
+
+[All engine entry points](docs/code-walkthrough.md)
+
+## Public Portfolio Quick Start
+
+Public repository is a license-safe portfolio subset of the locally validated system.
+
+With Python 3.11+ and Node 22+, run offline fixture tests and build the example summary:
 
 ```sh
-python -m unittest discover -s tests -v
+python -B -m unittest discover -s tests -v
 npm run build
 npm run dev
 ```
 
-Open `<preview-origin>`/docs/assets/demo/public-demo.html. This serves a static portfolio summary, **not the omitted Vue application**. No keys, npm dependencies or database needed. [Detailed quickstart](docs/quickstart.md).
+`npm run dev` serves the **static portfolio preview** on the loopback host, port 8765. It does not start the five-engine application or perform a search. No API keys or database are needed. [Detailed quick start](docs/quickstart.md) · [Offline examples](examples/example_query.json).
 
-## Configuration / API
-`.env.example` documents blank private-platform variables and is not loaded by offline tests. [Inspected API map](docs/api.md). Full deployment requires separately authorized upstream components; the compose example serves documentation only.
+## Full Local System
 
-## Limitations
-Single-platform convenience sample, small n, external API dependency, variable source quality, unknown source dates, no image/video reading and assistant-reviewed LLM outputs. Not designed or validated for production-scale crawling. Independent blind evaluation and cross-product generalization are planned, not completed.
+The full locally validated system depends on upstream components that are not redistributed here because of licensing constraints.
 
-## Responsible Use
-For research and learning only. Respect platform terms and MediaCrawler's own license; limit request rates, never bypass CAPTCHAs or access controls, collect no private information, and perform no unauthorized commercial scraping. No API keys, private cookies, authentication data, raw profiles or bulk comments are included. Examples are minimized/paraphrased and labeled. [Privacy](docs/privacy.md) · [security](docs/security.md). CI performs no paid calls or crawling. Both required GitHub Actions passed for the first published commit; see the [publication record](PUBLISHED_RELEASE_RECORD.md). The preview and private platform are for local development; authentication, rate limiting and RBAC have not been demonstrated for public production use.
+Start with the [upstream repository](https://github.com/JxKim/sentiment_analysis_platform), then review [environment requirements and configuration](docs/quickstart.md#full-local-system) and the [API map](docs/api.md). The local system uses a Vue workbench, FastAPI, MySQL and separately configured DeepSeek/Tavily services.
+
+## Limitations & Responsible Use
+
+The case is a single-platform convenience sample; findings support research hypotheses that need human review. Detailed measurements use a small in-sample development set with assistant-assisted labels, not an independent benchmark; see [Evaluation](docs/evaluation.md). Continuous monitoring, production readiness and business impact have not been established.
+
+Use for research and learning, respect platform terms and crawler licensing, limit request rates, and never bypass CAPTCHAs or access controls. Raw user data and credentials are excluded. CI is offline; the preview is for local development. [Privacy](docs/privacy.md) · [Security](docs/security.md).
 
 ## License & Attribution
-No blanket MIT/Apache license. Full upstream redistribution is not cleared. Some third-party components used during local research are excluded from this public portfolio because of their original licensing terms. See the [upstream project](https://github.com/JxKim/sentiment_analysis_platform), [final license audit](FINAL_LICENSE_AUDIT.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [manifest](publish_manifest.json). Original additions are source-visible under default copyright; no additional open-source reuse license is granted.
 
+The [upstream project](https://github.com/JxKim/sentiment_analysis_platform) is credited for the original architecture and application. Restricted components are excluded; original additions retain default copyright without a blanket MIT/Apache or commercial reuse grant. [LICENSE](LICENSE) · [NOTICE](NOTICE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [License scope](docs/LEGAL_AND_LICENSE.md).

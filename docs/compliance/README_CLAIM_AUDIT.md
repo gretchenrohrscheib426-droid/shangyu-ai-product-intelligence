@@ -1,6 +1,6 @@
 # README factual review
 
-Both READMEs were reviewed line by line. Metrics below were rechecked against the current MySQL counts, actual run outputs and saved validation; claims about code were checked against included/private source. Text hashes and line review rows are retained in the private audit snapshot. Examples are not presented as full production output.
+This table records the original publication review. The current READMEs present the product and case first; detailed metrics are in [Evaluation](../evaluation.md). The underlying values and contribution boundaries are unchanged. Both original READMEs were reviewed line by line. Metrics below were rechecked against the current MySQL counts, actual run outputs and saved validation; claims about code were checked against included/private source. Text hashes and line review rows are retained in the private audit snapshot. Examples are not presented as full production output.
 
 |Claim|Evidence and restriction|Result|
 |---|---|---|

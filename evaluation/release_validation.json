@@ -122,7 +122,7 @@
   },
   "ready_to_publish": true,
   "pending": [],
-  "final_audit": "FINAL_SECURITY_AUDIT.json",
+  "final_audit": "docs/compliance/FINAL_SECURITY_AUDIT.json",
   "github_cli_auth": "PASS",
-  "publication_record": "PUBLISHED_RELEASE_RECORD.md"
+  "publication_record": "docs/compliance/PUBLISHED_RELEASE_RECORD.md"
 }

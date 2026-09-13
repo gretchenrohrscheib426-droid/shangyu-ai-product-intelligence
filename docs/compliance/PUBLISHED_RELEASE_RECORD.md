@@ -38,4 +38,4 @@ API credentials, cookies, browser/login state, raw social data and IDs, database
 
 This is a portfolio of reviewed original additions and documentation, not the full upstream application or a hosted searchable service. The demonstrated research used one small private case (24 posts / 83 comments), with assistant-reviewed outputs and in-sample development evaluation. No production-readiness, blind accuracy, continuous monitoring or validated business impact is claimed. Full upstream redistribution remains uncleared.
 
-See [security audit](FINAL_SECURITY_AUDIT.md), [license audit](FINAL_LICENSE_AUDIT.md), [excluded files](PUBLIC_EXCLUDED_FILES.md), and [case study](docs/case-study-doubao.md).
+See [security audit](FINAL_SECURITY_AUDIT.md), [license audit](FINAL_LICENSE_AUDIT.md), [excluded files](PUBLIC_EXCLUDED_FILES.md), and [case study](../case-study-doubao.md).
